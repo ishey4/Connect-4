@@ -1,0 +1,23 @@
+
+.right.side input[type="text"] {width: 50px;}
+
+.side{display: inline-block;vertical-align: top;text-align: center;}
+.left{}
+.right{width:50%;position: absolute;right: 0;}
+.bold{font-weight: bold;}
+.largeFont{font-size:30px;}
+.PlayerContainer{padding: 10px;}
+.player{display: inline;padding:20px;}
+.winner {animation: winner 1s infinite;}
+.CurrentTurn{}
+.NewGame{}
+.NewGame input[type="number"]{width:40px;}
+.NewGame{}
+.Winner{}
+.hidden{display: none;}
+h1 {text-align: center;}
+@keyframes winner{
+  0%{background-color: white;color:black;}
+  50%{background-color: black;color:white;}
+  100%{background-color: white;color:black;}
+}

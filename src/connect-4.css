@@ -1,0 +1,4 @@
+.Column {display: inline-block; vertical-align: top;}
+.Column:hover {background-color:lightBlue;}
+
+.Block{width:50px;height: 50px;border:1px solid black;background-color:rgba(255,255,255,0)}
